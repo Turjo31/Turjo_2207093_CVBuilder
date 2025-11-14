@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_1.FormController">
+   <children>
+      <TextField layoutX="97.0" layoutY="94.0" prefHeight="40.0" prefWidth="600.0" promptText="Enter Your Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="144.0" prefHeight="40.0" prefWidth="600.0" promptText="Email Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="294.0" prefHeight="40.0" prefWidth="600.0" promptText="Educational Qualifications">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="244.0" prefHeight="40.0" prefWidth="600.0" promptText="Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="194.0" prefHeight="40.0" prefWidth="600.0" promptText="Phone Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="444.0" prefHeight="40.0" prefWidth="600.0" promptText="Projects">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="394.0" prefHeight="40.0" prefWidth="600.0" promptText="Work Experience">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="97.0" layoutY="344.0" prefHeight="40.0" prefWidth="600.0" promptText="Skills">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="346.0" layoutY="517.0" mnemonicParsing="false" style="-fx-background-color: lightgreen; -fx-background-radius: 10; -fx-border-color: green; -fx-border-radius: 10; -fx-cursor: hand;" text="Generate CV">
+         <font>
+            <Font name="Constantia" size="20.0" />
+         </font>
+      </Button>
+      <Text layoutX="265.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Fillup The Form">
+         <font>
+            <Font name="Constantia" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
