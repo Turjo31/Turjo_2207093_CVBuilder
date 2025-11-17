@@ -9,8 +9,8 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HomeScreenController {
-
+public class HomeScreenController
+{
     @FXML
     protected void onCreateClick(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("form.fxml"));

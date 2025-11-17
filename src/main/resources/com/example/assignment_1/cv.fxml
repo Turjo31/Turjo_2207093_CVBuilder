@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_1.CvController">
+    <children>
+        <Label fx:id="Name" layoutX="368.0" layoutY="104.0" text="Name">
+            <font><Font size="24" /></font>
+        </Label>
+        <Label fx:id="Email" layoutX="376.0" layoutY="185.0" text="Email">
+            <font><Font size="20" /></font>
+        </Label>
+        <Label fx:id="Phone" layoutX="372.0" layoutY="258.0" text="Phone">
+            <font><Font size="20" /></font>
+        </Label>
+        <Label fx:id="Address" layoutX="364.0" layoutY="342.0" text="Address">
+            <font><Font size="20" /></font>
+        </Label>
+    </children>
+</AnchorPane>
