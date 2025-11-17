@@ -19,7 +19,7 @@
             <Font name="Constantia" size="56.0" />
          </font>
       </Text>
-      <Text fill="#0b3e1e" layoutX="568.0" layoutY="558.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabyasachi Sadhu Turjo Roll: 2207093" wrappingWidth="217.60000000000014">
+      <Text fill="#0b3e1e" layoutX="522.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabyasachi Sadhu Turjo Roll: 2207093" wrappingWidth="217.60000000000014">
          <font>
             <Font name="Harrington" size="19.0" />
          </font>
