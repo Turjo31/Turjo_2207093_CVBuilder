@@ -37,6 +37,8 @@ public class FormController
 
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
+        stage.setWidth(700);
+        stage.setHeight(800);
         stage.show();
     }
 }

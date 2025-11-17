@@ -10,6 +10,10 @@ public class CvController {
     @FXML private Label Email;
     @FXML private Label Phone;
     @FXML private Label Address;
+    @FXML private Label Skill;
+    @FXML private Label Experience;
+    @FXML private Label Education;
+    @FXML private Label Project;
 
     public void setData(String name, String email, String phone, String address)
     {
