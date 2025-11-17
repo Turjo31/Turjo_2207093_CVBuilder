@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="650.0" spacing="20.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_1.CvController">
+<VBox minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="650.0" spacing="24.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_1.CvController">
    <children>
       <Label fx:id="Name" text="Name">
          <font>
@@ -91,6 +91,6 @@
       </Label>
    </children>
    <padding>
-      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      <Insets bottom="20.0" left="20.0" right="10.0" top="50.0" />
    </padding>
 </VBox>

@@ -13,32 +13,32 @@
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="email" layoutX="97.0" layoutY="144.0" prefHeight="40.0" prefWidth="600.0" promptText="Email Address">
+      <TextField fx:id="email" layoutX="97.0" layoutY="144.0" prefHeight="40.0" prefWidth="293.0" promptText="Email Address">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="education" layoutX="97.0" layoutY="244.0" prefHeight="90.0" prefWidth="600.0" promptText="Educational Qualifications">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="education" layoutX="97.0" layoutY="294.0" prefHeight="40.0" prefWidth="600.0" promptText="Educational Qualifications">
+      <TextField fx:id="address" layoutX="97.0" layoutY="194.0" prefHeight="40.0" prefWidth="600.0" promptText="Address">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="address" layoutX="97.0" layoutY="244.0" prefHeight="40.0" prefWidth="600.0" promptText="Address">
+      <TextField fx:id="phone" layoutX="402.0" layoutY="144.0" prefHeight="40.0" prefWidth="294.0" promptText="Phone Number">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="project" layoutX="402.0" layoutY="394.0" prefHeight="90.0" prefWidth="294.0" promptText="Projects">
          <font>
             <Font size="18.0" />
          </font>
       </TextField>
-      <TextField fx:id="phone" layoutX="97.0" layoutY="194.0" prefHeight="40.0" prefWidth="600.0" promptText="Phone Number">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="project" layoutX="97.0" layoutY="444.0" prefHeight="40.0" prefWidth="600.0" promptText="Projects">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="work" layoutX="97.0" layoutY="394.0" prefHeight="40.0" prefWidth="600.0" promptText="Work Experience">
+      <TextField fx:id="experience" layoutX="97.0" layoutY="394.0" prefHeight="90.0" prefWidth="294.0" promptText="Work Experience">
          <font>
             <Font size="18.0" />
          </font>

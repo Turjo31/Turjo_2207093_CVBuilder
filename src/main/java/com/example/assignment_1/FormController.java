@@ -19,6 +19,10 @@ public class FormController
     @FXML private TextField email;
     @FXML private TextField phone;
     @FXML private TextField address;
+    @FXML private TextField skill;
+    @FXML private TextField experience;
+    @FXML private TextField education;
+    @FXML private TextField project;
 
     @FXML
     private void onGenerateClick(ActionEvent event) throws IOException
@@ -28,16 +32,20 @@ public class FormController
         String Email = email.getText();
         String Phone = phone.getText();
         String Address  = address.getText();
+        String Skill  = skill.getText();
+        String Experience = experience.getText();
+        String Education = education.getText();
+        String Project = project.getText();
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("cv.fxml"));
         Parent root = loader.load();
 
         CvController cvController = loader.getController();
-        cvController.setData(Name, Email, Phone, Address);
+        cvController.setData(Name, Email, Phone, Address, Education, Skill, Experience, Project);
 
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
-        stage.setWidth(700);
+        stage.setWidth(720);
         stage.setHeight(800);
         stage.show();
     }

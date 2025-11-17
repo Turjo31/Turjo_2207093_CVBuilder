@@ -7,19 +7,30 @@ public class CvController {
 
     @FXML
     private Label Name;
-    @FXML private Label Email;
-    @FXML private Label Phone;
-    @FXML private Label Address;
-    @FXML private Label Skill;
-    @FXML private Label Experience;
-    @FXML private Label Education;
-    @FXML private Label Project;
+    @FXML
+    private Label Email;
+    @FXML
+    private Label Phone;
+    @FXML
+    private Label Address;
+    @FXML
+    private Label Skill;
+    @FXML
+    private Label Experience;
+    @FXML
+    private Label Education;
+    @FXML
+    private Label Project;
 
-    public void setData(String name, String email, String phone, String address)
+    public void setData(String name, String email, String phone, String address, String education, String skill, String experience, String project)
     {
         Name.setText(name);
         Email.setText(email);
         Phone.setText(phone);
         Address.setText(address);
+        Education.setText(education);
+        Experience.setText(experience);
+        Project.setText(project);
+        Skill.setText(skill);
     }
 }
