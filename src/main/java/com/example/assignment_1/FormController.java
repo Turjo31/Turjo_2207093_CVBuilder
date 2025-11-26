@@ -40,6 +40,7 @@ public class FormController
             alert.showAndWait();
             return;
         }
+
         String Name  = name.getText();
         String Email = email.getText();
         String Phone = phone.getText();
@@ -48,7 +49,7 @@ public class FormController
         String Experience = experience.getText();
         String Education = education.getText();
         String Project = project.getText();
-
+        Database.insertCV(Name, Email, Phone, Address, Skill, Experience, Education, Project);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("cv.fxml"));
         Parent root = loader.load();
 
